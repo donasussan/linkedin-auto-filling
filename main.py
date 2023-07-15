@@ -9,13 +9,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 
 chrome_driver_path = "/Users/dona/Documents/chromedriver"
-phno ="9446246490"
+phno =""
 chrome_options = Options()
 chrome_options.location = chrome_driver_path
 driver = webdriver.Chrome(options=chrome_options)
 driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3658011229&f_AL=true&f_E=2&f_TPR=r604800&f_WT=1&geoId=106215326&keywords=communications%20specialist&location=Bangladesh&refresh=true")
-username = 'donasussan2k@gmail.com'
-password = 'fn%5Y^Om7dKUlt&7'
+username = ''
+password = ''
 
 signup_btn = driver.find_element(By.LINK_TEXT, 'Sign in')
 signup_btn.click()
